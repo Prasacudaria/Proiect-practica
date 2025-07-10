@@ -1,10 +1,10 @@
  Proiect Practică - Web Scraper cu Python și Selenium
 
-Acesta este un proiect realizat în cadrul stagiului de practică, care folosește Python și Selenium pentru a căuta automat informații pe Google.
+Acesta este un proiect realizat în cadrul stagiului de practică, care folosește Python și Selenium pentru a căuta automat informații pe Google si a le salva intr-un fisier Excel.
  
   Descriere
 
-Proiectul automatizează procesul de căutare pe Google, extrage rezultatele și le afișează într-un mod organizat.
+Proiectul automatizează procesul de căutare pe Google, extrage rezultatele și le salveaza intr-un fisier Excel.
 Este util pentru a colecta rapid informații despre un anumit subiect, fără a deschide manual browserul.
 
 Tehnologii folosite
@@ -22,13 +22,15 @@ Cum se folosește
 
 2. Instalează dependențele (dacă nu le ai deja):
    
-pip install selenium
+pip install selenium pandas openpyxl webdriver-manager
 
 3.Asigură-te că ai ChromeDriver instalat și în PATH (sau în același folder cu scriptul).
 
 4.Rulează scriptul:
 
 python main.py
+
+5. verifica fisierul " rezultate_google.xlsx"
 
  Observații !!
 ChromeDriver trebuie să fie compatibil cu versiunea browserului Google Chrome instalat pe calculator.
